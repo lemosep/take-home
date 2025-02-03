@@ -1,0 +1,71 @@
+{
+    "name": "ExamplePolicy",
+    "blocks": [
+        {
+            "id": "c04de539-6f0f-49c5-89bb-b4fb5f807624",
+            "type": "start",
+            "operator": null,
+            "target_variable": null,
+            "value": null,
+            "output_value": null,
+            "next_block": "4895411c-0761-4332-ac97-3b1d4d9d6424",
+            "next_true": null,
+            "next_false": null
+        },
+        {
+            "id": "4895411c-0761-4332-ac97-3b1d4d9d6424",
+            "type": "conditional",
+            "operator": ">=",
+            "target_variable": "age",
+            "value": 18,
+            "output_value": null,
+            "next_block": null,
+            "next_true": "a277d27c-2914-44e3-a834-705c043e3f30",
+            "next_false": "04b33505-f7e3-46bd-9a4b-3ebc760623d4"
+        },
+        {
+            "id": "a277d27c-2914-44e3-a834-705c043e3f30",
+            "type": "conditional",
+            "operator": ">",
+            "target_variable": "salary",
+            "value": 10000,
+            "output_value": null,
+            "next_block": null,
+            "next_true": "5dce0caf-da35-4138-af9a-5960534ae00c",
+            "next_false": "ca14d746-9a28-4b36-886b-987ced9ca7be"
+        },
+        {
+            "id": "5dce0caf-da35-4138-af9a-5960534ae00c",
+            "type": "end",
+            "operator": null,
+            "target_variable": null,
+            "value": null,
+            "output_value": 1000,
+            "next_block": null,
+            "next_true": null,
+            "next_false": null
+        },
+        {
+            "id": "ca14d746-9a28-4b36-886b-987ced9ca7be",
+            "type": "end",
+            "operator": null,
+            "target_variable": null,
+            "value": null,
+            "output_value": 0,
+            "next_block": null,
+            "next_true": null,
+            "next_false": null
+        },
+        {
+            "id": "04b33505-f7e3-46bd-9a4b-3ebc760623d4",
+            "type": "end",
+            "operator": null,
+            "target_variable": null,
+            "value": null,
+            "output_value": 0,
+            "next_block": null,
+            "next_true": null,
+            "next_false": null
+        }
+    ]
+}
